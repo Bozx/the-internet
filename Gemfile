@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 ruby '2.7.2'
 
-gem 'sinatra'
+gem 'sinatra', '>= 4.1.0'
 gem 'sinatra-flash'
-gem 'sinatra-contrib'
+gem 'sinatra-contrib', '>= 4.1.0'
 gem 'shotgun'
 gem 'zurb-foundation'
 gem 'compass'
