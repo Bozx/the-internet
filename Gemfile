@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 ruby '2.7.2'
 
-gem 'sinatra'
+gem 'sinatra', '>= 2.0.0'
 gem 'sinatra-flash'
-gem 'sinatra-contrib'
-gem 'shotgun'
+gem 'sinatra-contrib', '>= 2.0.0'
+gem 'shotgun', '>= 0.9.2'
 gem 'zurb-foundation'
 gem 'compass'
 gem 'rake'
@@ -13,7 +13,7 @@ gem 'faker'
 gem 'uuid'
 
 group :test do
-  gem 'selenium-webdriver', '~> 3.4.0'
+  gem 'selenium-webdriver', '~> 3.4.1'
   gem 'rspec', '~> 3.5.0'
-  gem 'sauce_whisk', '~> 0.1.0'
+  gem 'sauce_whisk', '~> 0.2.0'
 end
